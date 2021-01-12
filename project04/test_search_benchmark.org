@@ -1,0 +1,57 @@
+#+TITLE: search_benchmark valgrind tests
+#+TESTY: ECHOING="both"
+#+TESTY: PROMPT="@>"
+#+TESTY: USE_VALGRIND='1'
+
+* search_benchmark all
+Checks if running search_benchmark with no options leads to any
+valgrind errors.
+
+#+TESTY: program='./search_benchmark 8 11 1'
+#+TESTY: skipdiff=1
+
+#+BEGIN_SRC sh
+
+#+END_SRC
+
+* search_benchmark al
+Checks running search_benchmark with options 'al'
+
+#+TESTY: program='./search_benchmark 1 7 5 al'
+#+TESTY: skipdiff=1
+
+#+BEGIN_SRC sh
+
+#+END_SRC
+
+* search_benchmark abt
+Checks running search_benchmark with options 'abt'
+
+#+TESTY: program='./search_benchmark 2 9 3 abt'
+#+TESTY: skipdiff=1
+
+#+BEGIN_SRC sh
+
+#+END_SRC
+
+
+* search_benchmark tlb
+Checks running search_benchmark with options 'tlb'
+
+#+TESTY: program='./search_benchmark 1 8 4 tlb'
+#+TESTY: skipdiff=1
+
+#+BEGIN_SRC sh
+
+#+END_SRC
+
+
+* search_benchmark blta
+Checks running search_benchmark with options 'blta'
+
+#+TESTY: program='./search_benchmark 1 10 1 blta'
+#+TESTY: skipdiff=1
+
+#+BEGIN_SRC sh
+
+#+END_SRC
