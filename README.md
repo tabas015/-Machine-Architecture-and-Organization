@@ -1,10 +1,10 @@
 # Course Material 
-   **Introduction to the Machine Architecture
-    Assembley
-    Memory Sytem
-    Linking
-    Loading
-    Optimization** 
+   **1.Introduction to the Machine Architecture
+    2. Assembley
+    3.Memory Sytem
+    4. Linking
+    5. Loading
+    6. Optimization** 
 # The work Distributions
    **5 projects had been completed in Spring 2020**
 
