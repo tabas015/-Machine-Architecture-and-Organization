@@ -6,12 +6,12 @@
     Loading
     Optimization** 
 # The work Distributions
-   5 projects had been completed in Spring 2020
+   **5 projects had been completed in Spring 2020**
 
 # Created Using:
-   C language
+   **C language
    Assembley
-   Shell
+   Shell**
 
 # Contact
-   **fahiatabass000@gmail.com
+   **fahiatabass000@gmail.com**
